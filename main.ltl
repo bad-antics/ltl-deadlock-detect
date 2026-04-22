@@ -1,0 +1,15 @@
+// ltl-deadlock-detect/main.ltl
+//
+// Waits-for-graph deadlock detector for educational use.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-deadlock-detect v0.1.0")
+    io::println("Waits-for-graph deadlock detector for educational use.")
+    0
+}
